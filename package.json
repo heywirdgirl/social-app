@@ -18,10 +18,9 @@
   "homepage": "https://github.com/shamahoque/mern-skeleton",
   "main": "./dist/server.generated.js",
   "scripts": {
-    "heroku-postbuild": "webpack -p",
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
-    "start": "NODE_ENV=production node ./dist/server.generated.js"
+    "start": "node ./dist/server.generated.js"
   },
   "engines": {
     "node": "13.12.0",
