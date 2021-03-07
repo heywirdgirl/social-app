@@ -23,7 +23,7 @@ const UserSchema = new mongoose.Schema({
     type: Date,
     default: Date.now
   },
-   about: {
+  about: {
     type: String,
     trim: true
   },

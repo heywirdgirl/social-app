@@ -1,4 +1,4 @@
-import Post from '../models/post.model'
+import Post from '../post/post.model'
 import errorHandler from './../helpers/dbErrorHandler'
 import formidable from 'formidable'
 import fs from 'fs'
